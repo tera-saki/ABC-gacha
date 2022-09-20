@@ -1,0 +1,11 @@
+{
+    "development": {
+        "username": "__REPLACE_TO_MYSQL_USER__",
+        "password": "__REPLACE_TO_MYSQL_PASSWORD__",
+        "database": "atcoder_problems",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "dialect": "mysql",
+        "logging": false
+    }
+}

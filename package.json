@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "selenium-webdriver": "^4.4.0",
+    "sequelize": "^6.23.0"
+  },
+  "scripts": {
+    "db:migrate": "npx sequelize db:migrate --config config/database.json",
+    "db:migrate:undo": "npx sequelize db:migrate:undo --config config/database.json"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
